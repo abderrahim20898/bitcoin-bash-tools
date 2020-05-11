@@ -176,4 +176,6 @@ vanityAddressFromPublicPoint() {
         echo unexpected format for public point >&2
         return 1
     fi
-}
+}$ echo -n '807ED1AD71422C165173046557456367DD2F34FB9E24905199758CE2D42CAA30576' | xxd -r -p | sha256sum -b
+
+
